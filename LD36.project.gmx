@@ -8,6 +8,7 @@
     <sound>sound\sndNinja_picnic_song_01</sound>
     <sound>sound\sndHero_jump</sound>
     <sound>sound\sndHero_land</sound>
+    <sound>sound\sndNinja_picnic_song_02</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sHero</sprite>
@@ -18,6 +19,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\ts_countryside</background>
+    <background>background\ts_street_lamp</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">

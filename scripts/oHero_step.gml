@@ -10,7 +10,7 @@ if (place_meeting(x, y+1, c))
   if (animation == "jump")
   {
     // If hitting the ground after jumping
-    snd("land");
+    // snd("land");
   }
 
   vspd = 0;

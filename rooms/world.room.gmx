@@ -8,7 +8,7 @@
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
-  <colour>16777215</colour>
+  <colour>5987163</colour>
   <showcolour>-1</showcolour>
   <code></code>
   <enableViews>-1</enableViews>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>0</deleteUnderlyingTiles>
-    <page>1</page>
-    <xoffset>-328</xoffset>
-    <yoffset>-190</yoffset>
+    <page>2</page>
+    <xoffset>-370</xoffset>
+    <yoffset>-215</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -282,6 +282,8 @@
     <tile bgName="ts_countryside" x="1248" y="1248" w="32" h="32" xo="0" yo="0" id="10000719" name="inst_E899ADA5" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_countryside" x="1248" y="1280" w="32" h="32" xo="0" yo="0" id="10000720" name="inst_9E274EF6" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_countryside" x="1248" y="1248" w="32" h="32" xo="0" yo="0" id="10000721" name="inst_E44003D1" depth="0" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_street_lamp" x="992" y="384" w="64" h="320" xo="0" yo="0" id="10000726" name="inst_6CD8622D" depth="-2" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_street_lamp" x="64" y="384" w="64" h="320" xo="0" yo="0" id="10000727" name="inst_98A37BAD" depth="-2" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

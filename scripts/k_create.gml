@@ -19,4 +19,6 @@ cam_center_y = view_hview / 2;
 // iRight = 0;
 // iEscape = 0;
 
-var s = audio_play_sound(sndNinja_picnic_song_01, 1, true);
+// Play bg music
+// var s = audio_play_sound(sndNinja_picnic_song_01, 1, true);
+var s = audio_play_sound(sndNinja_picnic_song_02, 1, true);
