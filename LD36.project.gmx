@@ -6,6 +6,8 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\sndNinja_picnic_song_01</sound>
+    <sound>sound\sndHero_jump</sound>
+    <sound>sound\sndHero_land</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sHero</sprite>
@@ -29,6 +31,7 @@
     <script>scripts\k_press_del.gml</script>
     <script>scripts\k_release_esc.gml</script>
     <script>scripts\ani.gml</script>
+    <script>scripts\snd.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\oHero</object>
@@ -38,7 +41,6 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\world</room>
-    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

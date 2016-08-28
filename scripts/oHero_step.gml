@@ -7,12 +7,19 @@ var jkey = keyboard_check_pressed(vk_up);
 // Check for ground
 if (place_meeting(x, y+1, c))
 {
+  if (animation == "jump")
+  {
+    // If hitting the ground after jumping
+    snd("land");
+  }
+
   vspd = 0;
 
   // Jumping
   if (jkey)
   {
     vspd = -jspd;
+    snd("jump");
   }
 
   // Moving right

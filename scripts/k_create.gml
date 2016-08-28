@@ -19,4 +19,4 @@ cam_center_y = view_hview / 2;
 // iRight = 0;
 // iEscape = 0;
 
-audio_play_sound(sndNinja_picnic_song_01, 1, true);
+var s = audio_play_sound(sndNinja_picnic_song_01, 1, true);
