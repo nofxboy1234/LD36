@@ -18,8 +18,7 @@
     <sprite>sprites\sSplat3</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\ts_countryside</background>
-    <background>background\ts_street_lamp</background>
+    <background>background\ts_world</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -42,7 +41,7 @@
     <object>objects\c</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\world</room>
+    <room>rooms\nexus</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
