@@ -3,7 +3,7 @@
   <spriteName>spr_Ground</spriteName>
   <solid>0</solid>
   <visible>0</visible>
-  <depth>-10</depth>
+  <depth>10000</depth>
   <persistent>0</persistent>
   <parentName>c</parentName>
   <maskName>&lt;undefined&gt;</maskName>
