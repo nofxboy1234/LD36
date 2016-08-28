@@ -3,7 +3,7 @@ animation = argument0;
 
 if (animation == "jump")
 {
-  sprite_index = sHero;
+  sprite_index = spr_Hero;
   image_speed = 0;
 
   // Play frame 0 on going up, frame 1 going down.
@@ -20,7 +20,7 @@ if (animation == "jump")
 }
 else if (animation == "run")
 {
-  sprite_index = sHero;
+  sprite_index = spr_Hero;
   image_speed = 0.3;
 
   start_frame = 0;
@@ -34,7 +34,7 @@ else if (animation == "run")
 }
 else if (animation == "idle")
 {
-  sprite_index = sHero;
+  sprite_index = spr_Hero;
   image_speed = 0.005;
 
   start_frame = 12;

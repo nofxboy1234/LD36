@@ -11,11 +11,11 @@
     <sound>sound\sndNinja_picnic_song_02</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sHero</sprite>
-    <sprite>sprites\sGround</sprite>
-    <sprite>sprites\sSplat1</sprite>
-    <sprite>sprites\sSplat2</sprite>
-    <sprite>sprites\sSplat3</sprite>
+    <sprite>sprites\spr_Hero</sprite>
+    <sprite>sprites\spr_Ground</sprite>
+    <sprite>sprites\spr_Splat1</sprite>
+    <sprite>sprites\spr_Splat2</sprite>
+    <sprite>sprites\spr_Splat3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\ts_world</background>
@@ -35,8 +35,8 @@
     <script>scripts\snd.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\oHero</object>
-    <object>objects\oGround</object>
+    <object>objects\obj_Hero</object>
+    <object>objects\obj_Ground</object>
     <object>objects\k</object>
     <object>objects\c</object>
   </objects>

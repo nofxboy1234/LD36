@@ -51,15 +51,15 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="oHero" x="128" y="672" name="inst_22D1B39B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Hero" x="128" y="672" name="inst_22D1B39B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="k" x="96" y="32" name="inst_85703D99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="0" y="704" name="inst_F44CFE78" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="-32" y="0" name="inst_9F4458E3" locked="0" code="" scaleX="1" scaleY="23" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="-32" y="-32" name="inst_56743BAD" locked="0" code="" scaleX="64" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="0" y="672" name="inst_8EF44E0A" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="1088" y="480" name="inst_94EB439E" locked="0" code="" scaleX="29" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="1024" y="608" name="inst_B52E3865" locked="0" code="" scaleX="2" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="2016" y="-32" name="inst_6A5E9123" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Ground" x="0" y="704" name="inst_F44CFE78" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Ground" x="-32" y="0" name="inst_9F4458E3" locked="0" code="" scaleX="1" scaleY="23" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Ground" x="-32" y="-32" name="inst_56743BAD" locked="0" code="" scaleX="64" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Ground" x="0" y="672" name="inst_8EF44E0A" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Ground" x="1088" y="480" name="inst_94EB439E" locked="0" code="" scaleX="29" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Ground" x="1024" y="608" name="inst_B52E3865" locked="0" code="" scaleX="2" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Ground" x="2016" y="-32" name="inst_6A5E9123" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_world" x="0" y="0" w="32" h="32" xo="0" yo="0" id="10001403" name="inst_68FACB8F" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

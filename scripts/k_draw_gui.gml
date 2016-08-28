@@ -1,13 +1,13 @@
 // /// draw player's HP
-// for (i = 0; i < oHero.maxHP; i += 2;) {
-//     draw_sprite(sHPHeart, clamp(oHero.hp-i, 0, 2), (view_wview/2)-((oHero.maxHP|2)-2)*16+32*i, 48);
+// for (i = 0; i < obj_Hero.maxHP; i += 2;) {
+//     draw_sprite(sHPHeart, clamp(obj_Hero.hp-i, 0, 2), (view_wview/2)-((obj_Hero.maxHP|2)-2)*16+32*i, 48);
 // }
 if (debug) {
     draw_set_colour(c_red);
     draw_rectangle((view_wview/2)-16, (view_hview/2)-16 , (view_wview/2)+16, (view_hview/2)+16, true);
-    draw_text(50, 32*1, "oHero.animation = " + string(oHero.animation));
-    draw_text(50, 32*2, "oHero.image_speed = " + string(oHero.image_speed));
-    draw_text(50, 32*3, "oHero.image_index = " + string(oHero.image_index));
+    draw_text(50, 32*1, "obj_Hero.animation = " + string(obj_Hero.animation));
+    draw_text(50, 32*2, "obj_Hero.image_speed = " + string(obj_Hero.image_speed));
+    draw_text(50, 32*3, "obj_Hero.image_index = " + string(obj_Hero.image_index));
 
 //     draw_text(50, 32*2, "oCam.x = " + string(oCam.x));
     //show_debug_message("fps = " + string(fps));
@@ -44,33 +44,33 @@ if (debug) {
     // draw_text(32, 32*4, "delta_time = " + string(delta_time));
     // draw_text(32, 32*5, "dt = " + string_format(dt, 3, 12));
 
-    // if (instance_exists(oHero))
+    // if (instance_exists(obj_Hero))
     // {
     //     start_x = window_get_width()-300;
     //     draw_set_color($FF007F);
 
-    //     draw_text(start_x, 32*1, "oHero.last_hitbox_x1 = " + string(oHero.last_hitbox_x1));
-    //     draw_text(start_x, 32*2, "oHero.last_hitbox_y1 = " + string(oHero.last_hitbox_y1));
-    //     draw_text(start_x, 32*3, "oHero.last_hitbox_x2 = " + string(oHero.last_hitbox_x2));
-    //     draw_text(start_x, 32*4, "oHero.last_hitbox_y2 = " + string(oHero.last_hitbox_y2));
+    //     draw_text(start_x, 32*1, "obj_Hero.last_hitbox_x1 = " + string(obj_Hero.last_hitbox_x1));
+    //     draw_text(start_x, 32*2, "obj_Hero.last_hitbox_y1 = " + string(obj_Hero.last_hitbox_y1));
+    //     draw_text(start_x, 32*3, "obj_Hero.last_hitbox_x2 = " + string(obj_Hero.last_hitbox_x2));
+    //     draw_text(start_x, 32*4, "obj_Hero.last_hitbox_y2 = " + string(obj_Hero.last_hitbox_y2));
 
-    //     draw_text(start_x, 32*5, "oHero.code_check = " + string(oHero.code_check));
+    //     draw_text(start_x, 32*5, "obj_Hero.code_check = " + string(obj_Hero.code_check));
 
     //     draw_set_color($FF5F00);
 
-    //     draw_text(start_x, 32*6, "oHero.last_blockbox_x1 = " + string(oHero.last_blockbox_x1));
-    //     draw_text(start_x, 32*7, "oHero.last_blockbox_y1 = " + string(oHero.last_blockbox_y1));
-    //     draw_text(start_x, 32*8, "oHero.last_blockbox_x2 = " + string(oHero.last_blockbox_x2));
-    //     draw_text(start_x, 32*9, "oHero.last_blockbox_y2 = " + string(oHero.last_blockbox_y2));
+    //     draw_text(start_x, 32*6, "obj_Hero.last_blockbox_x1 = " + string(obj_Hero.last_blockbox_x1));
+    //     draw_text(start_x, 32*7, "obj_Hero.last_blockbox_y1 = " + string(obj_Hero.last_blockbox_y1));
+    //     draw_text(start_x, 32*8, "obj_Hero.last_blockbox_x2 = " + string(obj_Hero.last_blockbox_x2));
+    //     draw_text(start_x, 32*9, "obj_Hero.last_blockbox_y2 = " + string(obj_Hero.last_blockbox_y2));
 
     //     draw_set_color($00FF3F);
 
-    //     if (instance_exists(oHero.myHurtbox))
+    //     if (instance_exists(obj_Hero.myHurtbox))
     //     {
-    //         draw_text(start_x, 32*10, "oHero.hurtbox_x1 = " + string(oHero.myHurtbox.x-32));
-    //         draw_text(start_x, 32*11, "oHero.hurtbox_y1 = " + string(oHero.myHurtbox.y-128));
-    //         draw_text(start_x, 32*12, "oHero.hurtbox_x2 = " + string(oHero.myHurtbox.x));
-    //         draw_text(start_x, 32*13, "oHero.hurtbox_y2 = " + string(oHero.myHurtbox.y));
+    //         draw_text(start_x, 32*10, "obj_Hero.hurtbox_x1 = " + string(obj_Hero.myHurtbox.x-32));
+    //         draw_text(start_x, 32*11, "obj_Hero.hurtbox_y1 = " + string(obj_Hero.myHurtbox.y-128));
+    //         draw_text(start_x, 32*12, "obj_Hero.hurtbox_x2 = " + string(obj_Hero.myHurtbox.x));
+    //         draw_text(start_x, 32*13, "obj_Hero.hurtbox_y2 = " + string(obj_Hero.myHurtbox.y));
     //     }
     // }
 
