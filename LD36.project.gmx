@@ -18,7 +18,6 @@
     <sprite>sprites\spr_Splat3</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\ts_world</background>
     <background>background\dungeon</background>
   </backgrounds>
   <paths name="paths"/>
@@ -42,8 +41,8 @@
     <object>objects\c</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\underground</room>
     <room>rooms\nexus</room>
+    <room>rooms\underground</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
