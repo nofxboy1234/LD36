@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sndNinja_picnic_song_01</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sHero</sprite>
     <sprite>sprites\sGround</sprite>

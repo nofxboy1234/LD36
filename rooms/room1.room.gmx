@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-407</xoffset>
-    <yoffset>-366</yoffset>
+    <xoffset>-728</xoffset>
+    <yoffset>-385</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -69,7 +69,6 @@
     <instance objName="oGround" x="1888" y="1024" name="inst_CA8E04D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oGround" x="0" y="0" name="inst_BA45CBEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oGround" x="0" y="1024" name="inst_14856C43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="192" y="32" name="inst_5E534896" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oGround" x="1376" y="384" name="inst_B4472B88" locked="0" code="" scaleX="6" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="oGround" x="1696" y="480" name="inst_FB612091" locked="0" code="" scaleX="4" scaleY="11" colour="4294967295" rotation="0"/>
     <instance objName="oGround" x="736" y="896" name="inst_186D3E65" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="0"/>
