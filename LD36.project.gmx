@@ -14,7 +14,9 @@
     <sprite>sprites\sSplat2</sprite>
     <sprite>sprites\sSplat3</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\ts_countryside</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\oHero_step.gml</script>

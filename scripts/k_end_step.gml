@@ -7,7 +7,7 @@ if (object_exists(oHero)) {
   y_slowdown = 0.1;
 
   x_offset = 0;
-  y_offset = view_hview * -1;
+  y_offset = 0;
 
   cam_center_x += ((oHero.x - cam_center_x + (x_offset * oHero.image_xscale)) * x_slowdown);
   cam_center_y += ((oHero.y - cam_center_y + (y_offset * oHero.image_yscale)) * y_slowdown);
