@@ -112,6 +112,22 @@ else
       hspd = -spd;
     }
   }
+
+  // Check for not moving
+  if ((!rkey && !lkey) || (rkey && lkey))
+  {
+    if (hspd != 0)
+    {
+      if (hspd < 0)
+      {
+        hspd += accel;
+      }
+      else
+      {
+        hspd -= accel;
+      }
+    }
+  }
 }
 
 
