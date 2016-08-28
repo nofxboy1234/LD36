@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1008</w>
+    <w>1016</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -26,9 +26,9 @@
     <showViews>0</showViews>
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
-    <page>1</page>
-    <xoffset>-331</xoffset>
-    <yoffset>-214</yoffset>
+    <page>4</page>
+    <xoffset>-221</xoffset>
+    <yoffset>-161</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1920" hview="1080" xport="0" yport="0" wport="1920" hport="1080" hborder="960" vborder="540" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1280" hview="720" xport="0" yport="0" wport="1280" hport="720" hborder="960" vborder="540" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -51,30 +51,14 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="oGround" x="0" y="320" name="inst_E1B66D30" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="352" y="320" name="inst_AD4A0273" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="384" y="320" name="inst_8BF390B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="512" y="320" name="inst_FEFDC785" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="544" y="320" name="inst_17E8E6F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oHero" x="288" y="320" name="inst_22D1B39B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="416" y="320" name="inst_61BD9339" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="448" y="320" name="inst_A5E5D26A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="480" y="320" name="inst_0ABA15F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="k" x="96" y="32" name="inst_85703D99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="672" y="256" name="inst_A855C551" locked="0" code="" scaleX="20" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="1888" y="0" name="inst_95DD1400" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="0" y="1056" name="inst_3A39E69D" locked="0" code="" scaleX="85" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oGround" x="1248" y="0" name="inst_95DD1400" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oGround" x="-32" y="1088" name="inst_34F3C150" locked="0" code="" scaleX="1" scaleY="-35" colour="4294967295" rotation="0"/>
     <instance objName="oGround" x="0" y="-32" name="inst_3F6BCB78" locked="0" code="" scaleX="60" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="1888" y="1024" name="inst_CA8E04D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oGround" x="0" y="0" name="inst_BA45CBEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="0" y="1024" name="inst_14856C43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="1376" y="384" name="inst_B4472B88" locked="0" code="" scaleX="6" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="1696" y="480" name="inst_FB612091" locked="0" code="" scaleX="4" scaleY="11" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="736" y="896" name="inst_186D3E65" locked="0" code="" scaleX="5" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="896" y="960" name="inst_0486F35D" locked="0" code="" scaleX="4" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="512" y="768" name="inst_FFAEE4B0" locked="0" code="" scaleX="5" scaleY="9" colour="4294967295" rotation="0"/>
-    <instance objName="oGround" x="448" y="192" name="inst_36F0942E" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="oGround" x="0" y="704" name="inst_F19E4E8A" locked="0" code="" scaleX="41" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oGround" x="1280" y="0" name="inst_963D47C8" locked="0" code="" scaleX="1" scaleY="22" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
