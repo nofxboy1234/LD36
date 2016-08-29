@@ -34,15 +34,24 @@
     <script>scripts\k_release_esc.gml</script>
     <script>scripts\ani.gml</script>
     <script>scripts\snd.gml</script>
+    <script>scripts\title_screen_step.gml</script>
+    <script>scripts\title_screen_draw.gml</script>
+    <script>scripts\title_screen_create.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_title</font>
+    <font>fonts\fnt_title_02</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_Hero</object>
     <object>objects\obj_Ground</object>
     <object>objects\k</object>
     <object>objects\c</object>
     <object>objects\obj_UndergroundSensor</object>
+    <object>objects\obj_title</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\title_screen</room>
     <room>rooms\nexus</room>
   </rooms>
   <help>
