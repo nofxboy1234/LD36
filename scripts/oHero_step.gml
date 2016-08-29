@@ -137,6 +137,33 @@ else
   }
 }
 
+// Change music per area
+if (place_meeting(x, y, obj_UndergroundSensor))
+{
+  if (audio_is_playing(sndNinja_picnic_song_02))
+  {
+    audio_stop_sound(sndNinja_picnic_song_02);
+  }
+
+  if (!audio_is_playing(sndNinja_picnic_song_01))
+  {
+    var s = audio_play_sound(sndNinja_picnic_song_01, 1, true);
+  }
+}
+
+if (place_meeting(x, y, obj_NexusSensor))
+{
+  if (audio_is_playing(sndNinja_picnic_song_01))
+  {
+    audio_stop_sound(sndNinja_picnic_song_01);
+  }
+
+  if (!audio_is_playing(sndNinja_picnic_song_02))
+  {
+    var s = audio_play_sound(sndNinja_picnic_song_02, 1, true);
+  }
+}
+
 // Horizontal collisions
 if (place_meeting(x+hspd, y, c))
 {

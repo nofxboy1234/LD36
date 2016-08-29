@@ -14,9 +14,12 @@
     <sprite>sprites\spr_Hero</sprite>
     <sprite>sprites\spr_Ground</sprite>
     <sprite>sprites\spr_UndergroundSensor</sprite>
+    <sprite>sprites\spr_NexusSensor</sprite>
     <sprite>sprites\spr_Splat1</sprite>
     <sprite>sprites\spr_Splat2</sprite>
     <sprite>sprites\spr_Splat3</sprite>
+    <sprite>sprites\spr_Item</sprite>
+    <sprite>sprites\spr_Death</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\dungeon</background>
@@ -48,7 +51,10 @@
     <object>objects\k</object>
     <object>objects\c</object>
     <object>objects\obj_UndergroundSensor</object>
+    <object>objects\obj_NexusSensor</object>
     <object>objects\obj_title</object>
+    <object>objects\obj_Item</object>
+    <object>objects\obj_Death</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\title_screen</room>
