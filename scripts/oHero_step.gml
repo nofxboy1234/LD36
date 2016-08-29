@@ -1,8 +1,9 @@
 /// Platform physics
 
-var rkey = keyboard_check(vk_right);
-var lkey = keyboard_check(vk_left);
-var jkey = keyboard_check_pressed(vk_up);
+var rkey = keyboard_check(vk_right) || gamepad_button_check(0, gp_padr);
+var lkey = keyboard_check(vk_left) || gamepad_button_check(0, gp_padl);
+var jkey = keyboard_check_pressed(vk_up) ||
+            gamepad_button_check_pressed(0, gp_face1);
 
 // Check for ground
 if (place_meeting(x, y+1, c))
@@ -178,6 +179,7 @@ if (place_meeting(x, y, obj_Tech))
   {
     instance_destroy();
   }
+  audio_play_sound(snd_tech, 1, false);
   techs += 1;
 }
 

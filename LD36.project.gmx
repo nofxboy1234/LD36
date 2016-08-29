@@ -9,6 +9,7 @@
     <sound>sound\sndHero_jump</sound>
     <sound>sound\sndHero_land</sound>
     <sound>sound\sndNinja_picnic_song_02</sound>
+    <sound>sound\snd_tech</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Hero</sprite>

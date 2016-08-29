@@ -1,6 +1,6 @@
 /// initiate variables
 // time = 0;
-debug = true;
+debug = false;
 
 // camera control
 cam_center_x = view_wview / 2;
