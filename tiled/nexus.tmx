@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="240" height="135" tilewidth="32" tileheight="32" nextobjectid="22">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="240" height="135" tilewidth="32" tileheight="32" nextobjectid="29">
  <tileset firstgid="1" name="dungeon" tilewidth="32" tileheight="32">
   <image source="../../../../Downloads/candyLand_tileset_v1_1_32x32.png" width="224" height="288"/>
  </tileset>
@@ -162024,16 +162024,19 @@
   </data>
  </layer>
  <objectgroup color="#0000ff" name="obj_Hero">
-  <object id="5" x="256" y="64" width="32" height="32"/>
+  <object id="5" x="256" y="640" width="32" height="32"/>
  </objectgroup>
- <objectgroup color="#0000ff" name="obj_Ground">
+ <objectgroup color="#000000" name="obj_Ground">
   <object id="13" x="0" y="672" width="448" height="608"/>
   <object id="14" x="576" y="672" width="416" height="608"/>
   <object id="15" x="992" y="576" width="160" height="704"/>
   <object id="16" x="1152" y="512" width="2816" height="768"/>
   <object id="20" x="3232" y="0" width="736" height="512"/>
   <object id="21" x="3136" y="192" width="96" height="320"/>
+  <object id="26" x="-32" y="0" width="32" height="1280"/>
+  <object id="28" x="-32" y="-32" width="4000" height="32"/>
  </objectgroup>
  <objectgroup color="#0000ff" name="k"/>
  <objectgroup color="#0000ff" name="c"/>
+ <objectgroup color="#0000ff" name="obj_Item"/>
 </map>

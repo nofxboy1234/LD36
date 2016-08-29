@@ -13,6 +13,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_Hero</sprite>
     <sprite>sprites\spr_Ground</sprite>
+    <sprite>sprites\spr_UndergroundSensor</sprite>
     <sprite>sprites\spr_Splat1</sprite>
     <sprite>sprites\spr_Splat2</sprite>
     <sprite>sprites\spr_Splat3</sprite>
@@ -39,10 +40,10 @@
     <object>objects\obj_Ground</object>
     <object>objects\k</object>
     <object>objects\c</object>
+    <object>objects\obj_UndergroundSensor</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\nexus</room>
-    <room>rooms\underground</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

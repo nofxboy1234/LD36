@@ -137,7 +137,6 @@ else
   }
 }
 
-
 // Horizontal collisions
 if (place_meeting(x+hspd, y, c))
 {
