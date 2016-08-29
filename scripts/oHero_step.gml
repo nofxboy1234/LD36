@@ -164,6 +164,24 @@ if (place_meeting(x, y, obj_NexusSensor))
   }
 }
 
+// Death
+if (place_meeting(x, y, obj_Death))
+{
+  room_restart();
+}
+
+// Item pickup
+if (place_meeting(x, y, obj_Tech))
+{
+  inst = instance_nearest(x, y, obj_Tech);
+  with (inst)
+  {
+    instance_destroy();
+  }
+  techs += 1;
+}
+
+
 // Horizontal collisions
 if (place_meeting(x+hspd, y, c))
 {

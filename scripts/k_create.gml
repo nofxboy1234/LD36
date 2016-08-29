@@ -14,5 +14,8 @@ cam_center_y = view_hview / 2;
 // }
 if (room == nexus)
 {
+  audio_stop_all();
   var s = audio_play_sound(sndNinja_picnic_song_02, 1, true);
 }
+
+success = false;

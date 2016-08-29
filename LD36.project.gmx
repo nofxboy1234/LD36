@@ -18,8 +18,8 @@
     <sprite>sprites\spr_Splat1</sprite>
     <sprite>sprites\spr_Splat2</sprite>
     <sprite>sprites\spr_Splat3</sprite>
-    <sprite>sprites\spr_Item</sprite>
     <sprite>sprites\spr_Death</sprite>
+    <sprite>sprites\spr_Tech</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\dungeon</background>
@@ -40,6 +40,7 @@
     <script>scripts\title_screen_step.gml</script>
     <script>scripts\title_screen_draw.gml</script>
     <script>scripts\title_screen_create.gml</script>
+    <script>scripts\k_step.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_title</font>
@@ -53,8 +54,8 @@
     <object>objects\obj_UndergroundSensor</object>
     <object>objects\obj_NexusSensor</object>
     <object>objects\obj_title</object>
-    <object>objects\obj_Item</object>
     <object>objects\obj_Death</object>
+    <object>objects\obj_Tech</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\title_screen</room>

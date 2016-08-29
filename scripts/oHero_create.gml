@@ -13,3 +13,6 @@ accel = 1
 
 // animation
 ani("idle");
+
+// inventory
+techs = 0;
